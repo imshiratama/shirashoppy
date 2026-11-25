@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "cffk",
+  "name": "shirashoppy",
   "compatibility_date": "2026-03-12",
   "keep_vars": true,
   "main": "vike:server-entry",
@@ -12,8 +12,8 @@
   "d1_databases": [
     {
       "binding": "DB",
-      "database_name": "cffk_db",
-      "migrations_dir": "database/migrations",
+      "database_name": "shirashop_db",
+      "migrations_dir": "database/migrations","database_id": "8888e253-0b43-42dd-a9a8-0ee2238c3702",
       // "database_id": "6ccaa772-9379-494a-8548-7a1bb74e30da" // 一键部署必须注释/
     }
   ],
